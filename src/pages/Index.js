@@ -17,12 +17,13 @@ const Index = () => (
             <Link to="/">About this site</Link>
           </h2>
           <p>
-          A modern, responsive React application developed using modern JavaScript, 
-          with a Flask backend to handle server-side functionality, hosted and managed on AWS Amplify. 
-          The architecture leverages AWS Lambda for efficient serverless computing,
-          and S3 for reliable and scalable static file storage and delivery.
+            A modern, responsive React application developed using modern JavaScript,
+            with a Flask backend to handle server-side functionality,
+            hosted and managed on AWS Amplify.
+            The architecture leverages AWS Lambda for efficient serverless computing,
+            and S3 for reliable and scalable static file storage and delivery.
 
-          Polish language version coming soon. 
+            Polish language version coming soon.
           </p>
         </div>
       </header>

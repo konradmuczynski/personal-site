@@ -14,7 +14,7 @@ const messages = [
   'hello',
   'konrad',
   'office',
-  'muczynski'
+  'muczynski',
 ];
 
 const useInterval = (callback, delay) => {
