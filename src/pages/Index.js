@@ -6,8 +6,8 @@ import Main from '../layouts/Main';
 const Index = () => (
   <Main
     description={
-      "Michael D'Angelo's personal website. New York based Stanford ICME graduate, "
-      + 'VP of Engineering at Smile Identity, co-founder of Arthena and Matroid, and YC Alumni.'
+      "Konrad's personal website. Gdańsk based, University of Surrey Graduate. "
+      + 'Data Analyst by profession, aspiring Data Engineer to be.'
     }
   >
     <article className="post" id="index">
@@ -17,8 +17,12 @@ const Index = () => (
             <Link to="/">About this site</Link>
           </h2>
           <p>
-            A beautiful, responsive, statically-generated, react application
-            written with modern Javascript.
+          A modern, responsive React application developed using modern JavaScript, 
+          with a Flask backend to handle server-side functionality, hosted and managed on AWS Amplify. 
+          The architecture leverages AWS Lambda for efficient serverless computing,
+          and S3 for reliable and scalable static file storage and delivery.
+
+          Polish language version coming soon. 
           </p>
         </div>
       </header>
@@ -32,7 +36,7 @@ const Index = () => (
       <p>
         {' '}
         Source available{' '}
-        <a href="https://github.com/mldangelo/personal-site">here</a>.
+        <a href="https://github.com/konradmuczynski/personal-site">here</a>.
       </p>
     </article>
   </Main>
