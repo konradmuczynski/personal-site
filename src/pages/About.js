@@ -20,7 +20,7 @@ const About = () => {
   - At 12, I went abroad for the first time and promised myself I would travel to all of Europe before turning 35. So far, I've been to 28 of 51 countries. Mallorca, Spain and Sardinia, Italy are my favorites. I've travelled outside of Europe as well.
   - At 13, I was almost expelled from school for turning off the internet firewall by editing system registry keys to unblock coolmathgames.com and miniclip.com and sharing the workaround with everyone -- except for the teachers.
   - Here's where I started to dabble in programming languages such as JavaScript, Python, and SQL.
-  - Between 13 and 17, I played a lot of video games. My favourites were Counter Strike: Global Offensive, Battlefield Bad Company 2, Halo 3, and Call of Duty Modern Warfare 2. Today, I mostly play Stellaris and Crusader Kings III.
+  - Between 13 and 17, I played a lot of video games. My favourites were Counter Strike: Global Offensive, Battlefield Bad Company 2, Halo 3, and Call of Duty Modern Warfare 2. Today, I mostly play Stellaris, Crusader Kings III & Football Manager. 
   - At 16, I started giving my first English tutoring lessons to adults and children alike in the UK.
   - At 18, I started university, and launched my first business.
 
@@ -83,8 +83,10 @@ const About = () => {
             I like to analyse large datasets, create Python applications,
             and learn new technologies that are beneficial to my personal
             & professional development.
-
-            In my spare time, I enjoy helping others by teaching English for free on Discord
+          </p>
+          <br />
+          <p>
+            In my spare time, I enjoy helping others by teaching English for free on Discord,
             and in person here in Poland, focusing on supporting individuals/groups who want
             to improve their language skills. In the future, I hope to open an online school
             where I can continue offering free education, funded through donations. If you&apos;re
@@ -137,7 +139,7 @@ const About = () => {
               Between 13 and 17, I played a lot of video games. My favourites were Counter Strike:
               Global Offensive, Battlefield Bad Company 2,
               Halo 3, and Call of Duty Modern Warfare 2.
-              Today, I mostly play Stellaris and Crusader Kings III.
+              Today, I mostly play Stellaris, Crusader Kings III, and Football Manager.
             </li>
             <li>
               At 16, I started giving my first English tutoring lessons to adults and children

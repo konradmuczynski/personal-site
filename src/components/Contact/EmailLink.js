@@ -10,10 +10,7 @@ const validateText = (text) => {
 };
 
 const messages = [
-  'hi',
-  'hello',
-  'konrad',
-  'office',
+  'muczynskik',
 ];
 
 const useInterval = (callback, delay) => {
@@ -76,7 +73,7 @@ const EmailLink = ({ loopMessage }) => {
     >
       <a href={validateText(message) ? `mailto:${message}@muczynski.info` : ''}>
         <span>{message}</span>
-        <span>@muczynski.info</span>
+        <span>@gmail.com</span>
       </a>
     </div>
   );
