@@ -20,8 +20,6 @@ const Index = () => (
             A modern, responsive React application developed using modern JavaScript,
             with a Flask backend to handle server-side functionality,
             hosted and managed on AWS Amplify.
-            The architecture leverages AWS Lambda for efficient serverless computing,
-            and S3 for reliable and scalable static file storage and delivery.
           </p>
           <p>
             Polish language version coming soon.
@@ -30,7 +28,7 @@ const Index = () => (
       </header>
       <p>
         {' '}
-        Welcome to my website. Please feel free to read more{' '}
+        Welcome to my portfolio website. Please feel free to read more{' '}
         <Link to="/about">about me</Link>, or check out my{' '}
         <Link to="/resume">resume</Link>, <Link to="/projects">projects</Link>,{' '}
         <Link to="/contact">or get in contact</Link> with me.
