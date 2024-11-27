@@ -153,7 +153,7 @@ const About = () => {
           <br />
           <h3>I like</h3>
           <ul>
-            <li>Running.</li>
+            <li>Running</li>
             <li>Boxing</li>
             <li>Space</li>
             <li>Spring & Summer</li>
