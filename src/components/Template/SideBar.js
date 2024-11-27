@@ -14,7 +14,7 @@ const SideBar = () => (
       <header>
         <h2>Konrad Muczyński</h2>
         <p>
-          <a href="mailto:konrad@muczynski.info">konrad@muczynski.info</a>
+          <a href="mailto:muczynskik@gmail.com">muczynskik@gmail.com</a>
         </p>
       </header>
     </section>
