@@ -25,7 +25,7 @@ const SideBar = () => (
         Hi, I&apos;m Konrad! I graduated from <a href="https://www.surrey.ac.uk/">Surrey University</a>,
         and I&apos;m currently working as a data analyst with plans to become a data engineer.
         This portfolio goes beyond a typical CV.
-        It’s a place where I can showcase my work, skills, and things I do outside of work..
+        It’s a place where I can showcase my work, skills, and things I do outside of work.
       </p>
       <ul className="actions">
         <li>

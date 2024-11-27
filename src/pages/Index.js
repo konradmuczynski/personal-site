@@ -22,7 +22,8 @@ const Index = () => (
             hosted and managed on AWS Amplify.
             The architecture leverages AWS Lambda for efficient serverless computing,
             and S3 for reliable and scalable static file storage and delivery.
-
+          </p>
+          <p>
             Polish language version coming soon.
           </p>
         </div>
@@ -30,15 +31,11 @@ const Index = () => (
       <p>
         {' '}
         Welcome to my website. Please feel free to read more{' '}
-        <Link to="/about">about me</Link>, or you can check out my{' '}
+        <Link to="/about">about me</Link>, or check out my{' '}
         <Link to="/resume">resume</Link>, <Link to="/projects">projects</Link>,{' '}
-        <Link to="/contact">contact</Link> me.
+        <Link to="/contact">or get in contact</Link> with me.
       </p>
-      <p>
-        {' '}
-        Source available{' '}
-        <a href="https://github.com/konradmuczynski/personal-site">here</a>.
-      </p>
+
     </article>
   </Main>
 );
