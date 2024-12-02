@@ -17,9 +17,8 @@ const Index = () => (
             <Link to="/">About this site</Link>
           </h2>
           <p>
-            A modern, responsive React application developed using modern JavaScript,
-            with a Flask backend to handle server-side functionality,
-            hosted and managed on AWS Amplify.
+            A modern, responsive React application developed using modern JavaScript.
+            Hosted and managed using AWS Amplify.
           </p>
           <p>
             Polish language version coming soon.
