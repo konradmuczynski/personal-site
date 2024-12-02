@@ -21,7 +21,7 @@ const data = [
     + 'Includes performance metrics, heatmaps, and predictive graphs, ideal for analysis and betting insights.',
   },
   {
-    title: 'PlayAnalyzer Pro',
+    title: 'Football Analysis',
     subtitle: 'AI-Powered Football Analysis System',
     image: '/images/projects/playanalyzer.jpg',
     date: '2024-08-20',
