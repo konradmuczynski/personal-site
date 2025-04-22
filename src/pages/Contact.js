@@ -22,7 +22,7 @@ const Contact = () => (
         <p>Feel free to get in touch. You can email me at: </p>
         <EmailLink />
         <br />
-        <p>I am currently working on a contact form and custom e-mail address!
+        <p>I am currently working on a contact form!
         </p>
       </div>
       <ContactIcons />
