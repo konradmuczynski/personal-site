@@ -7,12 +7,12 @@ const skills = [
   {
     title: 'BigQuery',
     competency: 4,
-    category: ['Web Development, Databases']
+    category: ['Web Development, Databases'],
   },
   {
     title: 'Dataform',
     competency: 3,
-    category: ['Web Development', 'Databases,']
+    category: ['Web Development', 'Databases,'],
   },
   {
     title: 'Javascript',

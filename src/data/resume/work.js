@@ -21,13 +21,12 @@ const work = [
     highlights: [
       'Utilized BigQuery to analyze large-scale datasets across multiple business units, identifying trends, fixing bugs, and modyfing existing queries to make them more efficient.',
       'Collobarated with the the engineering team(s) to create and implement new data-pipelines using SQL and Python.',
-      'Worked closely with internal teams to assess the performance of independent Amway Business Owners (ABOs), uncovering sales trends and highlighting areas for growth and support.',   
+      'Worked closely with internal teams to assess the performance of independent Amway Business Owners (ABOs), uncovering sales trends and highlighting areas for growth and support.',
       'Implemented Agile methodologies, introduced structured weekly sprints, and set-up task tracking and project managing in JIRA to improve upon team collaboration',
       'Estabilished Confluence as a documentation and knowledge sharing hub, to help with onboarding support, and general knowledge sharing for interested stakeholders',
       'Implemented GitHub for version control of scripts and queries, transitioning from a production-level environment to a structured and reviewable workflow.',
-      'Mentored and onboarded two new analysts by showcasing them our data-models, business processes and other internal tools that we currently use daily.'
-    ]
-
+      'Mentored and onboarded two new analysts by showcasing them our data-models, business processes and other internal tools that we currently use daily.',
+    ],
   },
   {
     name: 'Fitness Authority',
@@ -71,7 +70,7 @@ const work = [
       'Conducted small-scale A/B tests to selected user-groups, experimenting with small changes such as moving the CTA button to different places on web/mobile pages.',
       'Redirected development priorities from web to mobile platforms after identifying that the majority of users were engaging via mobile devices.',
       'Supported hiring decisions by identifying the most profitable—rather than simply the most popular—market segments, helping to improve conversion rates and ROI in high-performing areas.',
-      'Delivered weekly, monthly, and quarterly performance reports and presentations to SEO teams and upper management, providing insights into business and campaign performance.' 
+      'Delivered weekly, monthly, and quarterly performance reports and presentations to SEO teams and upper management, providing insights into business and campaign performance.',
     ],
   },
   {
@@ -99,7 +98,7 @@ const work = [
     highlights: [
       'Providing customer service by helping them with product buying.',
       'Restocking inventory in the magazine to optimal levels',
-      'Trained new employees in high-turnover environment.'
+      'Trained new employees in high-turnover environment.',
     ],
   },
   {
