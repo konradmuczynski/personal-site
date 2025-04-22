@@ -10,8 +10,21 @@ const validateText = (text) => {
 };
 
 const messages = [
-  'muczynskik',
+  'hi',
   'hello',
+  'hola',
+  'you-can-email-me-at-literally-anything! Really',
+  'well, not anything. But most things',
+  'like-this',
+  'or-this',
+  'but not this :(  ',
+  'you.can.also.email.me.with.specific.topics.like',
+  'just-saying-hi',
+  'please-work-for-us',
+  'help',
+  'admin',
+  'or-I-really-like-your-website',
+  'thanks',
 ];
 
 const useInterval = (callback, delay) => {
@@ -33,8 +46,8 @@ const useInterval = (callback, delay) => {
 };
 
 const EmailLink = ({ loopMessage }) => {
-  const hold = 5 // ticks to wait after message is complete before rendering next message
-  const delay = 5; // tick length in mS
+  const hold = 50; // ticks to wait after message is complete before rendering next message
+  const delay = 50; // tick length in mS
 
   const [idx, updateIter] = useState(0); // points to current message
   const [message, updateMessage] = useState(messages[idx]);
@@ -74,7 +87,7 @@ const EmailLink = ({ loopMessage }) => {
     >
       <a href={validateText(message) ? `mailto:${message}@muczynski.info` : ''}>
         <span>{message}</span>
-        <span>@gmail.com</span>
+        <span>@muczynski.info</span>
       </a>
     </div>
   );
