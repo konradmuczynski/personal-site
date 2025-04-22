@@ -33,7 +33,7 @@ const useInterval = (callback, delay) => {
     if (delay !== null) { // Check if delay is not null to run interval
       const id = setInterval(tick, delay);
       return () => clearInterval(id);
-    }
+    };
     return () => {}; // pass linter
   }, [delay]); // Line 36: Added semicolon
 };
@@ -106,9 +106,9 @@ const EmailLink = ({ loopMessage }) => {
         if (loopMessage || idx < messages.length) {
           // Check specifically if we are paused at the very end without looping
           // (This logic seems complex, ensure it covers all intended pause/resume cases)
-           if (!(!loopMessage && idx === messages.length && char === 0)) {
-             setIsActive(true);
-           }
+          if (!(!loopMessage && idx === messages.length && char === 0)) {
+            setIsActive(true);
+          }
         }
       }}
     >
@@ -133,5 +133,3 @@ EmailLink.propTypes = {
 };
 
 export default EmailLink;
-
-// Line 133: Added final newline (ensure your editor saves this)
