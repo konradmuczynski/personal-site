@@ -33,8 +33,8 @@ const useInterval = (callback, delay) => {
 };
 
 const EmailLink = ({ loopMessage }) => {
-  const hold = 50; // ticks to wait after message is complete before rendering next message
-  const delay = 50; // tick length in mS
+  const hold = 5 // ticks to wait after message is complete before rendering next message
+  const delay = 5; // tick length in mS
 
   const [idx, updateIter] = useState(0); // points to current message
   const [message, updateMessage] = useState(messages[idx]);
