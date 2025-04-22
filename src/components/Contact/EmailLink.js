@@ -11,6 +11,7 @@ const validateText = (text) => {
 
 const messages = [
   'muczynskik',
+  'hello',
 ];
 
 const useInterval = (callback, delay) => {

@@ -2,17 +2,17 @@ const skills = [
   {
     title: 'Google Cloud Platform',
     competency: 3,
-    category: ['Web Development, Tools'],
+    category: ['Web Development', 'Tools'],
   },
   {
     title: 'BigQuery',
     competency: 4,
-    category: ['Web Development, Databases'],
+    category: ['Web Development', 'Tools'],
   },
   {
     title: 'Dataform',
     competency: 3,
-    category: ['Web Development', 'Databases,'],
+    category: ['Web Development', 'Databases'],
   },
   {
     title: 'Javascript',
@@ -37,12 +37,12 @@ const skills = [
   {
     title: 'PostgreSQL/SQL',
     competency: 5,
-    category: ['Web Development', 'Databases', 'Languages'],
+    category: ['Databases', 'Languages'],
   },
   {
     title: 'Data Mining',
     competency: 4,
-    category: ['ML Engineering'],
+    category: ['Data Science'],
   },
   {
     title: 'Flask',
