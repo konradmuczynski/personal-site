@@ -13,10 +13,28 @@
  */
 const work = [
   {
+    name: 'Amway Corporation',
+    position: 'Senior Data Analyst',
+    url: 'https://www.amway.com',
+    startDate: '2024-10-01',
+    summary: 'Amway is a global company that manufactures and sells health, beauty, and home care products through a direct selling model, operating in over 100 countries.',
+    highlights: [
+      'Utilized BigQuery to analyze large-scale datasets across multiple business units, identifying trends, fixing bugs, and modyfing existing queries to make them more efficient.',
+      'Collobarated with the the engineering team(s) to create and implement new data-pipelines using SQL and Python.',
+      'Worked closely with internal teams to assess the performance of independent Amway Business Owners (ABOs), uncovering sales trends and highlighting areas for growth and support.',   
+      'Implemented Agile methodologies, introduced structured weekly sprints, and set-up task tracking and project managing in JIRA to improve upon team collaboration',
+      'Estabilished Confluence as a documentation and knowledge sharing hub, to help with onboarding support, and general knowledge sharing for interested stakeholders',
+      'Implemented GitHub for version control of scripts and queries, transitioning from a production-level environment to a structured and reviewable workflow.',
+      'Mentored and onboarded two new analysts by showcasing them our data-models, business processes and other internal tools that we currently use daily.'
+    ]
+
+  },
+  {
     name: 'Fitness Authority',
     position: 'Data Analyst',
     url: 'https://www.fasklep.pl',
     startDate: '2023-04-01',
+    endDate: '2024-10-01',
     summary: 'Fitness Authority is a Polish brand that specializes in producing and selling dietary supplements, sports nutrition products, and fitness accessories.',
     highlights: [
       'Developed a full-stack web app using QlikSense, SQL, and Python to monitor inventory levels, identify products nearing expiration, track low-demand items, and apply dynamic pricing to all products.',
@@ -30,9 +48,9 @@ const work = [
     name: 'Smarkets',
     position: 'Insight Analyst',
     url: 'https://www.smarkets.com',
-    startDate: '2021-09-01',
-    endDate: '2023-03-01',
-    summary: 'Smarkets is a UK-based online betting exchange where users bet against each other on events like sports and politics. Like a stock market but for betting.',
+    startDate: '2022-09-01',
+    endDate: '2023-02-01',
+    summary: 'Smarkets is a UK-based online betting exchange where users bet against each other on events like sports and politics.',
     highlights: [
       'Analysed customer behaviour, transaction patterns, and game performance to identify trends and opportunities for business growth.',
       'Generated detailed reports and dashboards using Sisense to track KPIs, such as customer retention, conversion rates, and revenue generation.',
@@ -42,11 +60,26 @@ const work = [
     ],
   },
   {
+    name: 'JohnnyBros',
+    position: 'Marketing Analyst',
+    url: 'https://www.johnnybros.pl',
+    startDate: '2021-04-01',
+    endDate: '2022-05-01',
+    summary: 'JohnnyBros is a Polish digital marketing agency that specializes in SEO, SEM, and performance marketing for clients across various industries.',
+    highlights: [
+      'Analyzed marketing performance data using Google Analytics and Google Data Studio, generating insights and reports for internal teams and clients.',
+      'Conducted small-scale A/B tests to selected user-groups, experimenting with small changes such as moving the CTA button to different places on web/mobile pages.',
+      'Redirected development priorities from web to mobile platforms after identifying that the majority of users were engaging via mobile devices.',
+      'Supported hiring decisions by identifying the most profitable—rather than simply the most popular—market segments, helping to improve conversion rates and ROI in high-performing areas.',
+      'Delivered weekly, monthly, and quarterly performance reports and presentations to SEO teams and upper management, providing insights into business and campaign performance.' 
+    ],
+  },
+  {
     name: 'LPP SA / Sinsay',
     position: 'Junior Data Analyst',
     url: 'https://www.sinsay.com/pl/pl/',
     startDate: '2019-08-01',
-    endDate: '2021-07-01',
+    endDate: '2021-02-01',
     summary: 'Sinsay is a Polish fashion brand that offers clothing, accessories, and home decor for a young audience. As a Junior Data Analyst, I supported data-driven decision-making by analyzing sales data, conducting A/B tests, and creating dashboards to provide insights across the business.',
     highlights: [
       'Developed and optimized SQL queries to extract and analyse sales data across 15+ countries where the Sinsay brand was present, providing actionable insights to support business decisions.',
@@ -62,8 +95,12 @@ const work = [
     url: 'https://www.argos.co.uk/',
     startDate: '2016-10-01',
     endDate: '2019-04-01',
-    summary: 'Part-time job while at university involving customer service, restocking inventory, and training new employees in a high-turnover environment.',
-    highlights: [],
+    summary: 'Part-time job whilst at university involving customer service, restocking inventory, and training new employees in a high-turnover environment.',
+    highlights: [
+      'Providing customer service by helping them with product buying.',
+      'Restocking inventory in the magazine to optimal levels',
+      'Trained new employees in high-turnover environment.'
+    ],
   },
   {
     name: 'Lushurious',

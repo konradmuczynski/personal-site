@@ -1,5 +1,20 @@
 const skills = [
   {
+    title: 'Google Cloud Platform',
+    competency: 3,
+    category: ['Web Development, Tools'],
+  },
+  {
+    title: 'BigQuery',
+    competency: 4,
+    category: ['Web Development, Databases']
+  },
+  {
+    title: 'Dataform',
+    competency: 3,
+    category: ['Web Development', 'Databases,']
+  },
+  {
     title: 'Javascript',
     competency: 2,
     category: ['Web Development', 'Languages', 'Javascript'],
@@ -20,7 +35,7 @@ const skills = [
     category: ['Web Development', 'Tools'],
   },
   {
-    title: 'PostgreSQL/SQL/Redshift',
+    title: 'PostgreSQL/SQL',
     competency: 5,
     category: ['Web Development', 'Databases', 'Languages'],
   },
@@ -81,7 +96,7 @@ const skills = [
   },
   {
     title: 'Tensorflow + Keras',
-    competency: 3,
+    competency: 2,
     category: ['ML Engineering', 'Python'],
   },
   {
@@ -95,13 +110,13 @@ const skills = [
     category: ['Data Science', 'Python'],
   },
   {
-    title: 'HTML + SASS/SCSS/CSS',
+    title: 'HTML + CSS',
     competency: 3,
     category: ['Web Development', 'Languages'],
   },
   {
     title: 'Python',
-    competency: 5,
+    competency: 4,
     category: ['Languages', 'Python', 'ML Engineering'],
   },
   {
