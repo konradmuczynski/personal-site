@@ -146,6 +146,6 @@ const work = [
       'Assisted full-time analysts by organizing social media metrics and creating basic performance reports.',
       'Contributed to insights on campaign effectiveness and customer engagement trends.',
     ],
-  },  
+  },
 ];
 export default work;
