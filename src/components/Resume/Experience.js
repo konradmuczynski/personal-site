@@ -20,6 +20,7 @@ Experience.propTypes = {
     PropTypes.exact({
       name: PropTypes.string,
       position: PropTypes.string,
+      location: PropTypes.string,
       url: PropTypes.string,
       startDate: PropTypes.string,
       endDate: PropTypes.string,
